@@ -1,0 +1,3 @@
+Bonjour, je suis Jemima et ceci est un fichier texte pas md
+Je suis étudiante en informatique.
+J'aime la Data Science et tout ce qui est analyse de donnée
