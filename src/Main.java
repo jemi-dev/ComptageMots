@@ -12,7 +12,19 @@ public class Main {
             File file= new File("Text.txt");
             Scanner fileScanner= new Scanner(file);
 
-             }catch (Exception e) {
+            /* Création d'une Boucle qui lit chaque ligne */
+            while (fileScanner.hasNextLine()) {
+                String ligne = fileScanner.nextLine();
+
+                /* Separation de la ligne par les espaces */
+                String[] mots = ligne.split(" ");
+
+                /* Ajout du nombre de mots de cette ligne au total */
+                totalMots = totalMots + mots.length;
+            }
+
+
+        }catch (Exception e) {
             System.out.println("Erreur : fichier introuvable");
         }
     }
