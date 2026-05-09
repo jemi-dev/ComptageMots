@@ -9,7 +9,7 @@ public class Main {
         /* Mettre un try ... catch en cas de fichier pas trouvé ou
         au cas où il y a un autre problème  */
         try {
-            File file= new File("Text.txt");
+            File file= new File("src/Text.txt");
             Scanner fileScanner= new Scanner(file);
 
             /* Création d'une Boucle qui lit chaque ligne */
@@ -23,7 +23,10 @@ public class Main {
                 totalMots = totalMots + mots.length;
             }
 
+            fileScanner.close();
 
+            /* Affichage du résultat */
+            System.out.println("Nombre total de mots : " + totalMots);
         }catch (Exception e) {
             System.out.println("Erreur : fichier introuvable");
         }
