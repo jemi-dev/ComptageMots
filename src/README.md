@@ -18,3 +18,6 @@ Programme Java qui compte le nombre total de mots dans un fichier texte.
 2. Ouvrir le projet dans IntelliJ IDEA
 3. Placer votre fichier texte à la racine du projet et le nommer `texte.txt`
 4. Exécuter la classe `Main.java`
+
+## Auteur
+AKA ESTHER JEMIMA
