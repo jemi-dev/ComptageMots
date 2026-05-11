@@ -9,7 +9,7 @@ public class Main {
         /* Mettre un try ... catch en cas de fichier pas trouvé ou
         au cas où il y a un autre problème  */
         try {
-            File file= new File("src/Text.txt");
+            File file= new File("src/TestExercice3.txt");
             Scanner fileScanner= new Scanner(file);
 
             /* Création d'une Boucle qui lit chaque ligne */
